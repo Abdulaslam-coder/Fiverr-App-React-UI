@@ -78,6 +78,7 @@ const currentUser = {
           <Link className='link' to="/">AI Services</Link>
           <Link className='link' to="/">Music & Audio</Link>
       </div>
+      <hr/>
       </>
       )}
     </div>

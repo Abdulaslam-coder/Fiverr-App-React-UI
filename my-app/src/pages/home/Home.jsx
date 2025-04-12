@@ -15,7 +15,7 @@ const Home = () => {
       <TrustedBy />
       <Slide slidesToShow={5} slidesToScroll={5}>
         {cards.map((card) => (
-          <CatCard key={card.id} item={card} />
+          <CatCard key={card.id} item  ={card} />
         ))}
       </Slide>
       <div className="features">
@@ -59,8 +59,8 @@ const Home = () => {
         </div>
       </div>
       <Slide slidesToShow={4} slidesToScroll={4}>
-        {projects.map((card) => (
-          <ProjectCard key={card.id} item={card} />
+        {projects.map((project) => (
+          <ProjectCard key={project.id} item={project} />
         ))}
       </Slide>
     </div>

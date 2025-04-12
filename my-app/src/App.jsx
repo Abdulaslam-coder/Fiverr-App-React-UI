@@ -14,6 +14,7 @@ import MyGigs from './pages/mygigs/MyGigs';
 import Orders from './pages/orders/Orders';
 import Register from './pages/register/Register';
 import "./app.scss";
+import Gig from './pages/gig/Gig';
 
 function App() {
   const Layout = () => {
@@ -33,8 +34,8 @@ function App() {
       children: [
         { path: "/", element: <Home /> },
         { path: "/add", element: <Add /> },
-        { path: "/gig/:id", element: <Gigs /> },
-        { path: "/gigs", element: <Gigs /> },
+        { path: "/gig/:id", element: <Gig/> },
+        { path: "/gigs", element: <Gigs/> },
         { path: "/login", element: <Login /> },
         { path: "/message/:id", element: <Message /> },
         { path: "/messages", element: <Messages /> },
